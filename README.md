@@ -1,4 +1,6 @@
-# Comandos básicos para Docker y para iniciar con los Contenedores
+> ¡Se espera que ya se tenga instalado Docker y esté activo!
+
+# Comandos básicos para iniciar con los Contenedores
 
 ![Docker Image](https://th.bing.com/th/id/R.a2f46e02ea8f7f8af6c6989687bd6b52?rik=WiqhmOrrNVgkCA&pid=ImgRaw&r=0)
 
