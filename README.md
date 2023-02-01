@@ -21,11 +21,11 @@ ___
 ## 4. Ver contenedores:
     docker container ls
 
-## Correr nuestra imagen en la consola:
+## 5. Correr nuestra imagen en la consola:
     docker run -it -p {local_port}:{container_port} {image_name}
 > Ejemplo: `docker run -it -p 7000:9000 flaskapp`
 
-## Correr nuestra imagen como un proceso:
+## 6. Correr nuestra imagen como un proceso:
     docker run -it -p {local_port}:{container_port} -d {image_name}
 > Ejemplo: `docker run -it -p 7000:9000 -d {image_name}`
 
