@@ -31,7 +31,7 @@ ___
 
 ___
 
-## Ruta para verificar el estado de la App
+## Ruta para verificar el estado de la aplicación
 
 En ambos casos al correr en proyecto podremos acceder a él desde la ruta:
 
