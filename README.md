@@ -6,10 +6,26 @@
 
 ___
 
-## 1. Abrir o cerrar entrono de venv:
-    cd venv/Scripts && activate.bat && cd ../..
 
-    cd venv/Scripts && deactivate.bat && cd ../..
+## 1. Abrir o cerrar entrono de venv:
+
+Se recomienda utilizar un entorno virtual para instalar los módulos del proyecto, para esto usaremos el módulo de Python llamado ***virtualenv***, los siguientes comandos los recomiendo ejecutar en **CMD** y no en **Powershell**.
+
+#### Instalar virtualenv:
+
+    pip install virtualenv
+
+#### Crear el archivo virtualenv:
+
+    virtualenv venv
+
+#### Activar:
+
+    .\venv\Scripts\activate.bat
+
+#### Desactivar:
+
+    .\venv\Scripts\deactivate.bat
 
 ## 2. Crear nuestra imagen:
     docker build -t {image_name} .
